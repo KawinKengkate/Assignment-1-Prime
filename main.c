@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int check(int);
+int check(int); //check ว่าเป็น primenumbersไหม
 
 int main(int argc, char *argv[] ) 
 {
@@ -39,7 +39,7 @@ int main(int argc, char *argv[] )
   return 0;
 }
 
-int check(int n)
+int check(int n) //check ว่าเป็น primenumbersไหม
 {
   if(n<=1)
   {
