@@ -20,6 +20,12 @@ int main(int argc, char *argv[] )
     }
   }
   
+  if(j==0) 
+    {
+      printf("No prime number found.");
+      return 0;
+    }
+
   for(i = 0; i < j; i++) //sort
   {
     for(int k = i+1; k < j; k++)
@@ -33,8 +39,8 @@ int main(int argc, char *argv[] )
     }
   }
 
-  printf("The smallest prime numbers is %d\n",b[0]);
-  printf("The biggest  prime numbers is %d\n",b[j-1]);
+  printf("The smallest prime numbers is %d.\n",b[0]);
+  printf("The biggest  prime numbers is %d.\n",b[j-1]);
 
   return 0;
 }

@@ -1,8 +1,8 @@
 compile: main.c 
-	 gcc main.c -o kawin
+	 gcc main.c -o gun
 
-run: kawin
-	 ./Kawin
+run: gun
+	 ./gun
 
-clean: kawin
-	 rm Kawin
+clean: gun
+	 rm gun
